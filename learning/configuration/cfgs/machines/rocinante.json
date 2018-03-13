@@ -1,0 +1,11 @@
+{
+  "weights_dir": "/home/helle246/data/urefine/pretrained_weights",
+  "source_dir": "/home/helle246/code/repos/urefine",
+  "lis_dir": "/home/helle246/data/LiS/lwset/shuffled_20_sparse",
+  "psd_dir": "/home/helle246/data/PSD/shuffled",
+  "psdl_dir": "/home/helle246/data/pancreas",
+  "psdp_dir": "/home/helle246/data/pancreas_planes",
+  "sf_dir": "/home/helle246/data/SiftFlow",
+  "sk_dir": "/home/helle246/data/sixkidneys/training",
+  "gpu": 0
+}

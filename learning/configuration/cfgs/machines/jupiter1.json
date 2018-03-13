@@ -1,0 +1,10 @@
+{
+  "weights_dir": "/home/helle246/data/urefine/pretrained_weights",
+  "source_dir": "/home/helle246/code/repos/urefine",
+  "lis_dir": "/media/helle246/HDD2/LiS",
+  "psdp_dir": "/media/helle246/HDD2/pancreas_planes",
+  "sf_dir": "/media/helle246/HDD2/SiftFlow",
+  "sk_dir": "/home/helle246/data/sixkidneys",
+  "sk_dir": "/home/helle246/data/sixkidneys/training",
+  "gpu": 1
+}

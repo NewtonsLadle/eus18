@@ -1,0 +1,49 @@
+{
+  "annotations": "/home/helle246/data/amended_kidney_annotations",
+  "volumes": "/media/storage/benchmarks/ours/kidneycancer/npys",
+  "mapping": {
+    "cjweight": {
+      "volume": "41-59__PAT_0013__STD_0003__SER_0017__OBJ_0001",
+      "start": 183,
+      "skip": 4,
+      "num": 54,
+      "include_outline": false
+    },
+    "ravis071": {
+      "volume": "60-77__PAT_0004__STD_0000__SER_0005__OBJ_0001",
+      "start": 101,
+      "skip": 2,
+      "num": 63,
+      "include_outline": false
+    },
+    "trade011": {
+      "volume": "60-77__PAT_0009__STD_0000__SER_0020__OBJ_0001",
+      "start": 91,
+      "skip": 4,
+      "num": 66,
+      "include_outline": false
+    },
+    "blake367": {
+      "volume": "60-77__PAT_0014__STD_0003__SER_0007__OBJ_0001",
+      "start": 91,
+      "skip": 2,
+      "num": 63,
+      "include_outline": false
+    },
+    "srkrishn": {
+      "volume": "41-59__PAT_0006__STD_0000__SER_0025__OBJ_0001",
+      "start": 102,
+      "skip": 4,
+      "num": 51,
+      "include_outline": true
+    },
+    "nsathian": {
+      "volume": "41-59__PAT_0011__STD_0002__SER_0008__OBJ_0001",
+      "start": 312,
+      "skip": 2,
+      "num": 53,
+      "include_outline": false
+    }
+  },
+  "write_location": "/home/helle246/data/sixkidneys"
+}

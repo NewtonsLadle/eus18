@@ -1,0 +1,9 @@
+{
+  "weights_dir": "/home/helle246/data/urefine/pretrained_weights",
+  "source_dir": "/home/helle246/code/repos/urefine",
+  "lis_dir": "",
+  "psd_dir": "/media/storage/PSD",
+  "sf_dir": "",
+  "sk_dir": "/home/helle246/data/sixkidneys/training",
+  "gpu": 0
+}

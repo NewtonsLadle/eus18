@@ -1,0 +1,31 @@
+{
+  "outs": [
+    "cjweight", "trade011", "nsathian", "ravis071", "srkrishn", "blake367"
+  ],
+  "default_weights": "init1",
+  "levels": [5,6,7],
+  "alphas": [0.99, 0.97, 0.93],
+  "trivial_probs": {
+    "axial":  [0.25, 0.20, 0.15],
+    "sagittal":  [0.60, 0.50, 0.40],
+    "coronal":  [0.80, 0.70, 0.60]
+  },
+  "epochs": [4000, 6000, 20000],
+  "display_steps": [100, 200, 300],
+  "batch_sizes": {
+    "axial": 10,
+    "sagittal": 50,
+    "coronal": 50
+  },
+  "lrs": [0.0007, 0.0005, 0.0003],
+  "dataset": "Kid",
+  "training_bundles": {
+    "axial": 20,
+    "sagittal": 100,
+    "coronal": 100
+  },
+  "keep_prob": 1.0,
+  "batch_order_file": "order_files/150000r1.npy",
+  "type_order_file": "order_files/150000r2.npy",
+  "viz_order_file": "order_files/10rv.npy"
+}

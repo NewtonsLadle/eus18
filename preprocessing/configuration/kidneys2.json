@@ -1,0 +1,14 @@
+{
+  "annotations": "/home/helle246/data/amended_kidney_annotations_2",
+  "volumes": "/media/storage/benchmarks/ours/kidneycancer/npys",
+  "mapping": {
+    "nsathian_2": {
+      "volume": "41-59__PAT_0011__STD_0002__SER_0008__OBJ_0001",
+      "start": 312,
+      "skip": 2,
+      "num": 53,
+      "include_outline": false
+    }
+  },
+  "write_location": "/home/helle246/data/sixkidneys"
+}

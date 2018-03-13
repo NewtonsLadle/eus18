@@ -1,0 +1,52 @@
+{
+  "model": {
+    "primary_restore": {
+      "path": "k3_2",
+      "type": "top"
+    },
+    "secondary_restore": {
+      "path": "",
+      "type": ""
+    },
+    "levels": 6,
+    "csize": 3,
+    "psize": 2,
+    "initial_filters": 10
+  },
+  "priors": [
+    {
+      "primary_restore": {
+        "path": "k3_1",
+        "type": "top"
+      },
+      "secondary_restore": {
+        "path": "",
+        "type": ""
+      },
+      "levels": 5,
+      "csize": 3,
+      "psize": 2,
+      "initial_filters": 10
+    }
+  ],
+  "tversky_alpha": 0.90,
+  "save_path": "prior2",
+  "batch_order_file": "order_files/150000r1.npy",
+  "type_order_file": "order_files/150000r2.npy",
+  "viz_order_file": "order_files/10rv.npy",
+  "trivial_prob": 0.10,
+  "starting_index": 0,
+  "epochs": 150000,
+  "save_threshold": 0.0,
+  "display_step": 100,
+  "batch_size": 10,
+  "lr": 0.001,
+  "dataset": "Kid",
+  "plane": "axial",
+  "trn_lim": -1,
+  "keep_prob": 1.0,
+  "training_bundles": 20,
+  "intensities": true,
+  "locations": false,
+  "leave_out": "cjweight"
+}

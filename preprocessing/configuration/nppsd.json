@@ -1,0 +1,7 @@
+{
+  "raw_volumes": "/media/storage/benchmarks/medical/pancreas_segmentation_dataset/Pancreas-CT",
+  "raw_annotations": "/media/storage/benchmarks/medical/pancreas_segmentation_dataset/TCIA_pancreas_labels-02-05-2017",
+  "write_location": "/home/helle246/data/pancreas_planes",
+  "logging": "psdplanes.txt",
+  "bundle_size": 20
+}

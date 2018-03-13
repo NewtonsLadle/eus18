@@ -1,0 +1,39 @@
+{
+  "model": {
+    "primary_restore": {
+      "path": "k5_1",
+      "type": "top"
+    },
+    "secondary_restore": {
+      "path": "",
+      "type": ""
+    },
+    "levels": 5,
+    "csize": 3,
+    "psize": 2,
+    "initial_filters": 10
+  },
+  "priors": [
+
+  ],
+  "tversky_alpha": 0.95,
+  "save_path": "prior1",
+  "batch_order_file": "order_files/150000r1.npy",
+  "type_order_file": "order_files/150000r2.npy",
+  "viz_order_file": "order_files/10rv.npy",
+  "trivial_prob": 0.5,
+  "starting_index": 0,
+  "epochs": 150000,
+  "save_threshold": 0.0,
+  "display_step": 100,
+  "batch_size": 50,
+  "lr": 0.001,
+  "dataset": "Kid",
+  "plane": "sagittal",
+  "trn_lim": -1,
+  "keep_prob": 1.0,
+  "training_bundles": 20,
+  "intensities": true,
+  "locations": false,
+  "leave_out": "trade011"
+}

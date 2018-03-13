@@ -1,0 +1,38 @@
+{
+  "model": {
+    "primary_restore": {
+      "path": "init1",
+      "type": "exact"
+    },
+    "secondary_restore": {
+      "path": "",
+      "type": ""
+    },
+    "levels": 5,
+    "csize": 3,
+    "psize": 2,
+    "initial_filters": 10
+  },
+  "priors": [
+
+  ],
+  "tversky_alpha": 0.9,
+  "save_path": "ax1",
+  "batch_order_file": "order_files/150000r1.npy",
+  "type_order_file": "order_files/150000r2.npy",
+  "viz_order_file": "order_files/10rv.npy",
+  "trivial_prob": 0.1,
+  "starting_index": 0,
+  "epochs": 3000,
+  "save_threshold": 0.0,
+  "display_step": 100,
+  "batch_size": 10,
+  "lr": 0.001,
+  "dataset": "PSDP",
+  "plane": "axial",
+  "trn_lim": -1,
+  "keep_prob": 1.0,
+  "training_bundles": 30,
+  "intensities": true,
+  "locations": false
+}
