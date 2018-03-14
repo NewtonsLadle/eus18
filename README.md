@@ -1,7 +1,7 @@
 # Engineering and Urology Society 2018 Meeting Submission
 
 ## Preprint
-[A Balance Cascade of Deep Neural Networks for CT Renal Segmentation](#)
+[A Balance Cascade of Deep Neural Networks for CT Renal Segmentation](http://distrob.cs.umn.edu/eus18/preprint.pdf)
 
 ## Data
 Our data-set can be found on the [project page](http://distrob.cs.umn.edu/eus18/).
